@@ -1,0 +1,21 @@
+{
+  "name": "line-translation-bot",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "echo 'Build step not required'"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^7.5.2",
+    "deepl-node": "^1.10.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
